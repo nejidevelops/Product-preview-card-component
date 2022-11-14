@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 :root{
@@ -18,4 +19,49 @@
 
 p{
     font-size: 14px;
+}
+
+body{
+    background-color: var(--cream);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.carding{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 39.5rem;
+    background-color: var(--white);
+    border-radius: 0.625rem;
+    box-shadow: 0.1875rem 0.25rem 0.875rem rgba(18, 19, 17, 0.03);
+    transition: ease 0.5s;
+    margin: 1rem 1.5rem;
+}
+
+.carding-image img{
+    height: 400px;
+}
+
+.carding-body{
+    margin: 2px;
+}
+
+.carding-body h5{
+    color: var(--cream);
+    padding: 5px;
+    letter-spacing: .3em;
+}
+
+.carding-body h2{
+    font-weight: 900;
+    font-size: 3em;
+    font-family: 'Fraunces', sans-serif;
+    padding: 5px;
+}
+
+.carding-body p{
+
 }
