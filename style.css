@@ -27,13 +27,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     min-height: 100vh;
 }
-.carding{
+
+.carding {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 39.5rem;
+    max-width: 40rem;
     background-color: var(--white);
     border-radius: 0.625rem;
     box-shadow: 0.1875rem 0.25rem 0.875rem rgba(18, 19, 17, 0.03);
@@ -43,10 +43,12 @@ body{
 
 .carding-image img{
     height: 400px;
+    width: 90%;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .carding-body{
-    margin: 2px;
+    margin: px;
 }
 
 .carding-body h5{
@@ -54,6 +56,7 @@ body{
     padding: 5px;
     letter-spacing: .3em;
 }
+/* 
 
 .carding-body h2{
     font-weight: 900;
@@ -64,4 +67,14 @@ body{
 
 .carding-body p{
 
+} */
+
+.striked {
+    text-decoration: line-through;
+}
+
+.cart-button {
+    background: var(--dark-cyan);
+    border: none;
+    width: 100%;
 }
